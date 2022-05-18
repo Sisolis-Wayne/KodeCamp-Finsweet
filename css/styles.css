@@ -37,6 +37,10 @@
     padding-top: 10px;
 }
 
+.navbar .hamburger {
+    display: none;
+}
+
 .navbar .menu {
     margin-left: 30px;
 }
@@ -642,7 +646,7 @@
 
 .container5 {
     width: 80%;
-    height: 60vh;
+    min-height: 60vh;
     /* border: 1px solid black; */
     margin: 0 auto;
     padding-top: 50px;
@@ -713,7 +717,7 @@
 
 .container6 {
     width: 80%;
-    height: 15vh;
+    min-height: 15vh;
     /* border: 1px solid black; */
     margin: 0 auto;
     padding: 30px 0px;
@@ -769,6 +773,605 @@
 
 
 
+/* For Services */
+
+#head-services {
+    width: 100%;
+    background: rgba(255, 255, 255, 1);;
+}
+
+.container7 {
+    width: 80%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.header-section-services {
+    min-height: 70vh;
+    margin-top: 64px;
+    /* border: 1px black solid; */
+    margin-right: 37px;
+    padding: 0;
+}
+
+.header-section-services .image-section {
+    width: 100%;
+    /* background-color: red; */
+    min-height: 69vh;
+    background-image: url(../images/HeaderImage-Services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+}
+
+.header-section-services .text-section {
+    width: 56.5%;
+    background: rgba(30, 27, 27, 1);
+    min-height: 69vh;
+}
+
+.header-section-services .image-section .flex {
+    justify-content: flex-end;
+}
+
+.header-section-services .text-section h1 {
+    font-family: Manrope;
+    font-size: 64px;
+    font-weight: 800;
+    color: rgba(242, 242, 242, 1);
+    line-height: 84px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin: 56px 0 20px 56px;
+}
+
+.header-section-services .text-section p {
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* font-weight: 600; */
+    color: rgba(242, 242, 242, 1);
+    margin: 0 56px 30px 56px;
+}
+
+.hss .text-section a {
+    margin-left: 56px;
+}
+
+.container11 {
+    width: 80%;
+    height: 140vh;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding: 70px 0px 80px 0px
+}
+
+#services-section {
+    background-color: #F5F5F5;
+}
+
+.services {
+    justify-content: space-between;
+    min-height: 80vh;
+}
+
+.services .services-left {
+    width: 48.8%;
+    padding: 45px 24px 0 24px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.services .services-left img {
+    width: 100%;
+    margin: 0 0 20px 0;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+}
+
+.services .services-right {
+    width: 48.8%;
+    /* background-color: red; */
+}
+
+.services-left h3 {
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+.services-left p {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin: 0 0 11px 0;
+    color: rgba(35, 37, 54, 0.6);
+}
+
+.see-arrow {
+    align-items: center;
+
+}
+
+.see-arrow .p1 {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 17.5px;
+    margin-right: 21px;
+    color: rgba(30, 27, 27, 1);
+    margin-bottom: 0px;
+}
+
+.see-arrow .p2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.services-right {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-right .firstbox {
+    width: 48%;
+    height: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 21px;
+}
+
+.services-right .firstbox p {
+    margin-top: 16px;
+}
+
+.services-right .five, .services-right .six {
+    margin-bottom: 0;
+}
+
+.container12 {
+    width: 80%;
+    height: 90vh;
+    /* border: 1px solid black;  */
+    margin: 0 auto;
+    padding: 0px
+}
+
+.for-c12 {
+    margin-bottom: 70px;
+}
+
+.how-head {
+    height: 70vh;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.how-left {
+    width: 48%;
+}
+
+.how-right {
+    width: 48%;
+    justify-content: space-between;
+}
+
+.how-left h3 {
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.how-left .how-left-1 img {
+    width: 8%;
+    height: 8%;
+    margin-right: 24px;
+
+}
+
+.how-left .how-left-1 p {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.how-left .hll {
+    margin-bottom: 28px;
+}
+
+.how-right img {
+    width: 48.8%;
+}
+
+.how-2-head {
+    height: 72.5vh;
+    /* border: 1px solid black; */
+    /* margin-top: 60px; */
+    justify-content: space-between;
+}
+
+.how-2-left {
+    width: 48%;
+    justify-content: space-between;
+}
+
+.how-2-right {
+    width: 48%;
+    /* justify-content: space-between; */
+}
+
+.how-2-left img {
+    width: 48.8%;
+}
+
+.how-2-right a {
+    margin: 0;
+    margin-left: 0px;
+}
+
+.how-2-right h3 {
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.how-2-right p {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.services-right .firstbox:hover {
+    background: #FF6433;
+}
+
+/* mobile view for Services Page*/
+
+@media (max-width: 426px) {
+
+    #head-section {
+        margin-bottom: -25px;
+    }
+
+    .navbar .logo {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar-right {
+        display: none;
+    }
+
+    .navbar .hamburger {
+        /* display: inline-block; */
+        display: flex;
+        /* margin-left: 100px; */
+    }
+
+    .navbar .hamburger img {
+        width: 80%;
+    }
+
+    .header-section-services .image-section {
+        background-image: none;
+    }
+
+    .header-section-services .text-section {
+        width: 100%;
+        padding: 20px;
+        background: red;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/media01.png)
+    }
+
+    .container7 {
+        width: 100%;
+    }
+
+    .header-section-services {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .header-section-services .text-section h1 {
+        font-size: 20px;
+        margin: 0px;
+        line-height: 32px;
+    }
+
+    .header-section-services .text-section p {
+        margin: 0px;
+    }
+
+    .hss .text-section a {
+        margin: 0px;
+    }
+
+    #services-section {
+        margin-bottom: 977px;
+    }
+
+    .container11 {
+        width: 100%;
+        height: 0;
+        min-height: 10vh;
+        padding: 0px;
+
+    }
+
+    .services {
+        flex-direction: column;
+        min-height: 50vh;
+    }
+
+    .services .services-left {
+        width: 100%;
+        padding: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/CarImage-Services.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 50vh;
+        /* padding-bottom: 60px; */
+    }
+    
+    .services .services-left h3, .services .services-left p {
+        color: #fff
+    }
+
+    .services .services-left h3 {
+        font-size: 20px;
+        margin: 0px;
+        line-height: 32px;
+    }
+
+    .services .services-left p {
+        margin: 0px;
+        font-family: Manrope;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        /* font-weight: 600; */
+        color: rgba(242, 242, 242, 1);
+    }
+
+
+    .services .services-left .carimage {
+        display: none;
+    }
+
+   .services .services-left img {
+       margin: 0px;
+       margin-top: 13px;
+       margin-left: 10px;
+       background-color: white;
+       padding: 3px 6px;
+       border: white 1px solid;
+       border-radius: 20px;
+   }
+
+    .services .services-right {
+        width: 100%;
+        background: rgba(228, 228, 228, 1);
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .services-right .firstbox {
+        margin-bottom: 17px;
+    }
+
+    .services-right .five, .services-right .six {
+        margin-bottom: 0;
+    }
+
+    .services-right .firstbox:hover {
+        background: #FF6433;
+    }
+
+    .container12 {
+        width: 100%;
+    }
+
+    .how-head {
+        flex-direction: column;
+        min-height: 70vh;
+        /* margin-bottom: 40px; */
+    }
+
+    .how-head .how-left {
+        width: 100%;
+        padding: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/how-car1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* min-height: 50vh; */
+        /* margin-bottom: 40px; */
+    }
+
+    .how-head .how-left h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+        color: #fff;
+
+    }
+
+    .how-head .how-left-1 p {
+        font-size: 15px;
+        color: #fff;
+    }
+
+    .how-left .hll {
+        margin-bottom: 0px;
+    }
+
+
+
+    .how-head .how-right {
+        display: none;
+    }
+
+    
+
+    .container12 {
+        width: 100%;
+    }
+
+    .how-2-head {
+        flex-direction: column;
+    }
+
+    .how-2-head .how-2-left {
+        display: none;
+    }
+
+    .how-2-head .how-2-right {
+        width: 100%;
+        margin-top:20px;
+        padding: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/how-car3\ .png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .how-2-head .how-2-right h3 {
+        font-size: 20px;
+        line-height: 38px;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+    .how-2-head .how-2-right p {
+        color: #fff;
+    }
+
+    .container5 {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    #footer-section {
+        margin-top: 138px;
+        /* display: none; */
+    }
+    
+    .foot {
+        flex-direction: column;
+        /* margin-bottom: 20px;
+        min-height: 60vh; */
+        padding: 20px;
+    }
+    .foot-left {
+        width: 100%;
+        min-height: 35vh;
+    }
+
+    .foot-left h3 {
+        font-size: 20px;
+        line-height: 38px;
+        margin-bottom: 15px;
+        padding-bottom: 0px;
+    }
+
+    .foot-right {
+        /* display: none; */
+        width: 100%;
+        min-height: 35vh;
+    }
+
+    .foot-right .p9 {
+        font-size: 19px;
+        padding-bottom: 12px;
+    }
+
+    /* .foot-left .logo {
+        height: 50vh;
+    } */
+
+    #footer-bottom-section {
+        /* display: none; */
+        width: 100%;
+    }
+
+    #footer-bottom-section .container6 {
+        padding: 10px 0px;
+    }
+
+    .container6 {
+        width: 100%;
+    }
+
+    .footer-navbar {
+        flex-direction: column;
+        margin-bottom: 0;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .footer-navbar .footer-navbar-right {
+        align-items: flex-start;
+    }
+
+    .footer-navbar .logo {
+        margin: 0 auto;
+    }
+
+    .footer-navbar-right .menu {
+        margin-left: 0px;
+    }
+
+    .footer-navbar-right .menu li {
+        padding-left: 0px;
+    }
+
+    .menu .ul-for-menu {
+        flex-direction: column;
+    }
+
+    .footer-navbar .copyfin {
+        /* display: none; */
+        margin-top: 10px;
+        font-size: small;
+    }
+
+    
 
 
 
@@ -776,3 +1379,41 @@
 
 
 
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+    
+        
+    
+        
+    
+        
+}
