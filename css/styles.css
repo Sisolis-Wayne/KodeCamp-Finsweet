@@ -1064,7 +1064,8 @@
 @media (max-width: 426px) {
 
     #head-section {
-        margin-bottom: -25px;
+        /* margin-bottom: -25px; */
+        margin-bottom: 0px;
     }
 
     .navbar .logo {
@@ -1229,7 +1230,8 @@
         font-size: 20px;
         margin-bottom: 0;
         color: #fff;
-
+        line-height: 36px;
+        /* added line height in the line above */
     }
 
     .how-head .how-left-1 p {
@@ -1263,7 +1265,8 @@
 
     .how-2-head .how-2-right {
         width: 100%;
-        margin-top:20px;
+        /* margin-top:20px; */
+        margin-top: 0px;
         padding: 20px;
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/how-car3\ .png);
         background-size: cover;
@@ -1288,8 +1291,10 @@
     }
 
     #footer-section {
-        margin-top: 138px;
+        /* margin-top: 138px; */
         /* display: none; */
+        margin-top: 0px;
+        /* added a line above */
     }
     
     .foot {
@@ -1300,8 +1305,10 @@
     }
     .foot-left {
         width: 100%;
-        min-height: 35vh;
+        /* min-height: 35vh; */
+        min-height: 29vh;
     }
+    
 
     .foot-left h3 {
         font-size: 20px;
