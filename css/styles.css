@@ -35,6 +35,7 @@
     /* border: 1px solid black; */
     margin: 0 auto;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .navbar .hamburger {
@@ -77,7 +78,7 @@
 
 .header-section {
     min-height: 50vh;
-    height: 92vh;
+    /* recent */
 }
 
 .header-section .text-section {
