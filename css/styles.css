@@ -1359,7 +1359,12 @@
 
     .footer-navbar .footer-navbar-right {
         align-items: flex-start;
+        margin: 0 auto;
     }
+
+    /* .menu .footer-li {
+        padding: 0;
+    } */
 
     .footer-navbar .logo {
         margin: 0 auto;
@@ -1371,6 +1376,7 @@
 
     .footer-navbar-right .menu li {
         padding-left: 0px;
+        padding-right: 18px;
     }
 
     .menu .ul-for-menu {
@@ -1381,6 +1387,8 @@
         /* display: none; */
         margin-top: 10px;
         font-size: small;
+        text-align: center;
+        margin: 0 auto;
     }
 
                                     /* mobile view for Home Page*/
@@ -1421,9 +1429,9 @@
         display: none;
     } */
 
-    #footer-bottom-section {
+    /* #footer-bottom-section {
          display: none;
-    }
+    } */
 
     #head-section {
         background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), url(../images/Image-FRS.png);
