@@ -13,7 +13,7 @@
 
 .container {
     width: 80%;
-    height: 100vh;
+    min-height: 100vh;
     /* border: 1px solid black; */
     margin: 0 auto;
     padding-top: 10px;
@@ -31,7 +31,7 @@
 
 .contain {
     width: 80%;
-    height: 100vh;
+    min-height: 66vh;
     /* border: 1px solid black; */
     margin: 0 auto;
     padding-top: 10px;
@@ -76,6 +76,7 @@
 }
 
 .header-section {
+    min-height: 50vh;
     height: 92vh;
 }
 
@@ -305,7 +306,7 @@
 
 .container0 {
     width: 80%;
-    height: 125vh;
+    min-height: 125vh;
     /* border: 1px solid black; */
     margin: 0 auto;
     padding: 60px 0px;
@@ -339,6 +340,10 @@
     font-weight: 800;
     line-height: 76px;
     letter-spacing: -0.03em;
+}
+
+.offit {
+    display: none;
 }
 
 .offer-grid .offer-grid1 {
@@ -418,7 +423,7 @@
 
 .container2 {
     width: 80%;
-    height: 25vh;
+    min-height: 25vh;
     /* border: 1px solid black; */
     margin: 0 auto;
 }
@@ -582,7 +587,7 @@
 
 .container4 {
     width: 70%;
-    height: 100vh;
+    min-height: 100vh;
     /* border: 1px solid black; */
     margin: 0 auto;
     padding-top: 40px;
@@ -1377,6 +1382,232 @@
         margin-top: 10px;
         font-size: small;
     }
+
+                                    /* mobile view for Home Page*/
+
+    /* #quote-section {
+        display: none;
+    } */
+
+    /* #process-section {
+        display: none;
+    } */
+
+    /* #offer-section {
+        display:  none;
+    } */
+
+    /* #cta-section {
+        display: none;
+    } */
+
+    /* #exp-section {
+        display: none;
+    } */
+
+    /* #brand-section {
+        display: none;
+    } */
+
+    /* #testimonial-section {
+        display: none;
+    } */
+
+    /* #faq-section {
+         display: none;
+    } */
+
+    /* #footer-section {
+        display: none;
+    } */
+
+    #footer-bottom-section {
+         display: none;
+    }
+
+    #head-section {
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), url(../images/Image-FRS.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .contain {
+         /* min-height: 30vh; */
+         width: 100%;
+    }
+
+    .header-section {
+        flex-direction: column;
+        min-height: 44vh;
+        /* border: black 1px solid; */
+    }
+
+    .header-section .image-section {
+         display: none;
+    }
+
+    .header-section .text-section {
+         margin: 0px;
+         width: 100%;
+         padding: 20px;
+         padding-top: 0px;
+    }
+
+    .header-section .text-section .text {
+         font-size: 40px;
+         line-height: normal;
+    }
+
+    .header-section .text-section a {
+        margin: 27px 0px 29px 0px;
+    }
+
+    .container {
+        width: 100%;
+        padding-top: 0px;
+        padding: 20px;
+    }
+
+    .quote-head {
+        flex-direction: column;
+        padding-top: 15px
+    }
+
+    .quote-head .quote-left {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .quote-left .servicing h2, .quote-right .get h3 {
+         font-size: 40px;
+         line-height: normal;
+    }
+
+    .quote-left .feature ul li {
+        margin-bottom: 30px;
+    }
+
+    .quote-head .quote-right {
+        /* display: none; */
+        width: 100%;
+        padding: 20px;
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), url(../images/how-car3\ .png);
+    }
+
+    .process-head {
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .process-head .process-left {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .process-head .process-right {
+        width: 100%;
+        /* background-color: green; */
+        background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/how-car3\ .png);
+    }
+    
+    .container0 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .offit {
+        display: flex;
+    }
+
+    .offer-off {
+        display:  none;
+    }
+
+    .offer-head .off1 {
+        font-size: 40px;
+    }
+
+    .offer-head .off2 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .offer-grid .offer-grid1 {
+        justify-content: space-between;
+    }
+
+    .offer-grid .offer-grid1 .item {
+        margin-right: 0px;
+        width: 48%;
+    }
+
+    .left-car .mini-left-car {
+        width: 50%;
+        position: absolute;
+        left: 100px;
+    }
+
+    .left-car .mini-left-car p {
+        line-height: normal;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .exp-flex {
+        padding-top: 0px;
+        padding: 20px;
+    }
+
+    .exp .p1 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .exp .p2 {
+        text-align: center;
+    }
+
+    .brands {
+        padding-top: 10px;
+    }
+
+    .testimonial .ttm-text {
+        line-height: normal;
+        font-size: 40px;
+    }
+
+    .ttm {
+        flex-direction: column;
+    }
+
+    .ttm .ttm-right, .ttm .ttm-left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container4 {
+        width: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../images/how-car1.png);
+        padding: 20px;
+    }
+
+
+
+
+    
+
+
+
+
+
+
+
 
     
 
