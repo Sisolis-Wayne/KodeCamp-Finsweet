@@ -35,7 +35,7 @@
     /* border: 1px solid black; */
     margin: 0 auto;
     padding-top: 10px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .navbar .hamburger {
@@ -78,6 +78,7 @@
 
 .header-section {
     min-height: 50vh;
+    height: 92vh;
     /* recent */
 }
 
@@ -1604,63 +1605,11 @@
         width: 100%;
         background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../images/how-car1.png);
         padding: 20px;
-    }
-
-
-
-
-    
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
-    
-        
-    
-        
-    
-        
+    }   
 }
+
+                                /* Tablet view for Services Page*/
+
+ @media (max-width: 768px) {
+
+ }
