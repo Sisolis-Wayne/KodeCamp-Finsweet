@@ -78,7 +78,7 @@
 
 .header-section {
     min-height: 50vh;
-    height: 92vh;
+    /* height: 92vh; */
     /* recent */
 }
 
@@ -98,6 +98,7 @@
 .header-section .text-section {
     margin-right: 107px;
     margin-top: 50px;
+    padding-bottom: 60px;
 }
 
 
@@ -458,12 +459,12 @@
 
 #brand-section {
     width: 100%;
-    height: 60vh;
+    /* height: 60vh; */
 }
 
 .container3 {
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
     background: rgba(250, 250, 250, 1);
 }
 
@@ -1610,6 +1611,72 @@
 
                                 /* Tablet view for Services Page*/
 
- @media (max-width: 768px) {
+ @media (max-width: 769px) {
+
+    .contain {
+        width:  90%;
+    }
+
+    .navbar-right .assistance {
+        display: none;
+    }
+
+    .text-section .text {
+        line-height: normal;
+        font-size: 30px;
+    }
+
+    .header-section .text-section {
+        margin-right: 65px;
+        width: 100%;
+    }
+
+    .header-section .image-section {
+        width: 100%;
+    }
+
+    .container, .container0, .container2, .container4, .container5, .container6 {
+        width: 90%;
+    }
+
+    .quote-head {
+        padding-bottom: 53px;
+    }
+
+    .servicing h2 {
+        line-height: 50px;
+    }
+
+    .process-head {
+        margin: 53px 0px;
+    }
+
+    .process-left h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .pfeature .pserve .p1 {
+        font-size: 24px;
+    }
+
+    .pfeature .pconserve .p2 {
+        margin-left: 42px;
+    }
+
+    .line {
+        margin-left: 18px
+    }
+
+    .left-car .mini-left-car p {
+        font-size: 25px;
+        line-height: 50px;
+        margin: 13px 0px;
+    }
+
+    .copyfin {
+        display: none;
+    }
+
 
  }
